@@ -1,0 +1,103 @@
+:root {
+  --color-main: rgb(255, 0, 157);
+  --color-blur: rgb(250, 214, 219);
+}
+@font-face {
+  font-family: myfont;
+  src: url(./font/iransans.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: myfont;
+}
+
+.container {
+  max-width: 80%;
+  margin: 30px auto;
+}
+.icon {
+  font-size: 48px;
+  color: var(--color-main);
+}
+.topic {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.book {
+  color: var(--color-main);
+}
+label {
+  color: rgb(161, 159, 159);
+  font-size: 14px;
+}
+.input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  /* border-style: none; */
+  border-color: rgb(192, 187, 187);
+}
+.btn {
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  background-color: var(--color-main);
+  border: none;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+  border-top: 2px solid rgb(206, 203, 203);
+  border-bottom: 2px solid rgb(206, 203, 203);
+}
+.res {
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-main);
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.colmn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.text {
+  text-align: center;
+  font-size: 16px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-blur);
+  width: 100%;
+  height: 40px;
+}
+.delet-icon{
+    color: var(--color-main);
+    background-image: url(./icon/icons8-trash-128.svg);
+    width: 2%;
+    height: 2%;
+    font-size: 2px;
+
+}

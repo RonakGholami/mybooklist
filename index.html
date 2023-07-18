@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOK List</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="topic">
+        <i class="fas fa-book-open icon"></i>
+        SabzLearn Js <span class="book">Book</span>List
+      </h1>
+      <label for="title"
+        >Title
+        <input id="title" class="input" type="text" />
+      </label>
+      <label for="author"
+        >Author
+        <input id="author" class="input" type="text" />
+      </label>
+      <label for="year"
+        >Year
+        <input id="year" class="input" type="number" />
+      </label>
+      <button class="btn">Add Book</button>
+
+      <div class="result">
+        <span class="res">Title</span>
+        <span class="res">Author</span>
+        <span class="res">Year</span>
+      </div>
+      <div class="list">
+        <div class="colmn" id="res-title"></div>
+        <div class="colmn" id="res-author"></div>
+        <div class="colmn" id="res-year"></div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a02d54efed.js" crossorigin="anonymous"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
